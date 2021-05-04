@@ -21,6 +21,12 @@
   margin: 0 0 ($base-size * 1.5) 0;
 }
 
+.carts {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
 .icon > * {
   padding-right: $base-size;
   color: $color-warning;
