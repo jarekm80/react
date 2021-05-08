@@ -7,7 +7,7 @@ const Card = props => (
     {/*<h3 className={styles.title}>{props.title}</h3>*/}
     <input type="text" value={props.title} readOnly></input>
   </section>
-)
+);
 Card.propTypes = {
   title: PropTypes.string,
 };
