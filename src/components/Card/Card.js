@@ -2,14 +2,19 @@ import React from 'react';
 import styles from './Card.scss';
 import PropTypes from 'prop-types';
 
-const Card = props => (
-  <section className={styles.component}>
-    {/*<h3 className={styles.title}>{props.title}</h3>*/}
-    <input type="text" value={props.title} readOnly></input>
-  </section>
-);
-Card.propTypes = {
-  title: PropTypes.string,
-};
+class Card extends React.Component {
+  static propTypes = {
+    title: PropTypes.string,
+  }
+
+  render() {
+    const {title} = this.props;
+    return (
+      <section className={styles.component}>
+        <input type="text" value={title} readOnly></input>
+      </section>
+    );
+  }  
+}
 
 export default Card;
