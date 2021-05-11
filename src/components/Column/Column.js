@@ -20,6 +20,7 @@ class Column extends React.Component {
 
   static defaultProps = {
     description: ReactHtmlParser(settings.defaultListDescription),
+    icon: settings.defaultColumnIcon,
   }
 
   render() {
