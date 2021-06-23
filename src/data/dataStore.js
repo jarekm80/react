@@ -89,6 +89,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Top 100',
+    description: 'Top 100 by Imdb',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Top 100 polish movies',
+    description: 'by filmweb',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
 ];
 
 const columns = [
@@ -113,8 +125,14 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'first 2',
+    icon: 'film',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-3',
+    title: 'first 2',
+    icon: 'film',
   },
 ];
 
@@ -148,6 +166,26 @@ const cards = [
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
+  },
+  {
+    id: 'card-7',
+    columnId: 'column-4',
+    title: 'The Shawshank Redemption',
+  },
+  {
+    id: 'card-8',
+    columnId: 'column-4',
+    title: 'The Godfather',
+  },
+  {
+    id: 'card-9',
+    columnId: 'column-5',
+    title: 'Pianista',
+  },
+  {
+    id: 'card-10',
+    columnId: 'column-5',
+    title: 'Najlepszy',
   },
 ];
 
